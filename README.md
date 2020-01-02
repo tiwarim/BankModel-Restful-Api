@@ -85,20 +85,22 @@ In your local machine, go to your project directory and run
  
  
  ## Running edge test cases ##
- Regsitering a user twice <br />
- <img width="329" height="350" alt="Screen Shot 2020-01-01 at 8 37 38 PM" src="https://user-images.githubusercontent.com/41305591/71648762-97d28080-2cd6-11ea-9db0-66b25e1ed5d4.png"> <br />
+ **Registering a user twice** <br />
+  <img width="363" height="350" alt="Screen Shot 2020-01-02 at 12 49 26 AM" src="https://user-images.githubusercontent.com/41305591/71653435-5eac0780-2cfa-11ea-8932-60291d369c4d.png"> <br />
  
- Invalid user name <br />
- <img width="342" alt="Screen Shot 2020-01-01 at 11 31 10 PM" src="https://user-images.githubusercontent.com/41305591/71651862-dc6a1600-2cee-11ea-8eef-99e223918987.png"><br />
+ **Invalid user** <br />
+ <img width="325" height="350" alt="Screen Shot 2020-01-02 at 12 57 04 AM" src="https://user-images.githubusercontent.com/41305591/71653536-e2fe8a80-2cfa-11ea-8250-a1d699dac49b.png"><br />
  
- No more tokens <br />
- <img width="417" height="350" alt="Screen Shot 2020-01-01 at 11 28 59 PM" src="https://user-images.githubusercontent.com/41305591/71651814-90b76c80-2cee-11ea-8c8b-478304e167ca.png"><br />
+ **Invalid password** <br />
+ <img width="349" alt="Screen Shot 2020-01-02 at 12 49 54 AM" src="https://user-images.githubusercontent.com/41305591/71653469-9d41c200-2cfa-11ea-908f-8cebb09a0a9d.png"> <br />
  
- Wrong Admin password <br />
- <img width="359" alt="Screen Shot 2020-01-01 at 8 57 51 PM" src="https://user-images.githubusercontent.com/41305591/71649045-7030e780-2cd9-11ea-8edf-5bd7fd9f051c.png"> <br />
- 
- 
+ **Not enough amount** <br />>
+<img width="395" height="350" alt="Screen Shot 2020-01-02 at 12 51 49 AM" src="https://user-images.githubusercontent.com/41305591/71653629-7f289180-2cfb-11ea-877b-8fadfbc98c44.png"><br />
 
+ **Entering a negative amount** <br />>
+ <img width="696" height="350" alt="Screen Shot 2020-01-02 at 12 51 20 AM" src="https://user-images.githubusercontent.com/41305591/71653667-bac35b80-2cfb-11ea-8a4d-bc453942092d.png">
+
+ 
 
 ## Deployment
 
