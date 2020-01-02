@@ -1,8 +1,10 @@
+# importing helper functions and other imports
 from utils import *
 
 app = Flask(__name__)
 api = Api(app)
 
+# assigning a route to the resources 
 api.add_resource(Register, "/register")
 api.add_resource(Add, "/add")
 api.add_resource(Transfer, "/transfer")

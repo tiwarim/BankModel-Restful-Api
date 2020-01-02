@@ -1,6 +1,15 @@
+# importing helper functions and other imports
 from sys_utils import *
 
 # resources
+
+"""
+    Resource Register takes input on a POST protocol and creates new accounts 
+    Parameters:
+        namepass: contains username and password of the user <JSON>
+    Returns:
+        retJson: contains status code and message <JSON>
+"""
 class Register(Resource):
     def post(self):
         namepass = request.get_json()
@@ -23,7 +32,13 @@ class Register(Resource):
         retJson = makeJson(200, "Your account is now set up")
         return jsonify(retJson)
 
-
+"""
+    Resource Add takes input on a POST protocol and credits user account
+    Parameters:
+        namepass: contains username, password and amount <JSON>
+    Returns:
+        retJson: contains status code and message <JSON>
+"""
 class Add(Resource):
     def post(self):
         namepassamt = request.get_json()
@@ -51,6 +66,13 @@ class Add(Resource):
         retJson = makeJson(200, "Amount added to your existing cash")
         return jsonify(retJson)
 
+"""
+    Resource Check takes inputs on POST protocol and returns current balance for the user
+    Parameters:
+        namepass: contains username and password of the user <JSON>
+    Returns:
+        retJson: contains status code and message <JSON>
+"""
 class Check(Resource):
     def post(self):
         namepass = request.get_json()
@@ -75,6 +97,13 @@ class Check(Resource):
         )[0]
         return jsonify(retJson)
 
+"""
+    Resource Transfer takes inputs on a POST protocol and transfers money from sender to receiver's account
+    Parameters:
+        namepass: contains username, password of the user and receiver's username <JSON>
+    Returns:
+        retJson: contains status code and message <JSON>
+"""
 class Transfer(Resource):
     def post(self):
         namepasstoamt = request.get_json()
@@ -112,6 +141,13 @@ class Transfer(Resource):
         retJson = makeJson(200, "Money successfully transferred")
         return jsonify(retJson)
 
+"""
+    Resource Takeloan takes inputs on a POST protocol and grants user a loan
+    Parameters:
+        namepass: contains username, password of the user and loan amount <JSON>
+    Returns:
+        retJson: contains status code and message <JSON>
+"""
 class TakeLoan(Resource):
     def post(self):
         namepassamt = request.get_json()
@@ -139,6 +175,13 @@ class TakeLoan(Resource):
         retJson = makeJson(200, "Loan passed successfully")
         return jsonify(retJson)
 
+"""
+    Resource Payloan takes inputs on a POST protocol and pays back a part of the loan
+    Parameters:
+        namepass: contains username, password of the user and loan amount <JSON>
+    Returns:
+        retJson: contains status code and message <JSON>
+"""
 class PayLoan(Resource):
     def post(self):
         namepassamt = request.get_json()
