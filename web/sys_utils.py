@@ -46,20 +46,6 @@ def verifypw(username, password):
     else:
         return False
 
-"""
-    Returns the number of tookens available to the user at the time for API call
-       
-    Parameters:
-        username: the unique identification name for the user <str>
-        password : password given at the time of calling the API <str>
-    Returns:
-        num_tokens: the number of tokens currently available <int>
-"""
-def countTokens(username):
-    num_tokens = users.find({
-        "username" : username
-    })[0]["tokens"]
-    return num_tokens
 
 """
     Return the current balance in user's account
