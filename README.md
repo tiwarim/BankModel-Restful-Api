@@ -97,7 +97,7 @@ In your local machine, go to your project directory and run
  **Not enough amount** <br />>
 <img width="395" height="350" alt="Screen Shot 2020-01-02 at 12 51 49 AM" src="https://user-images.githubusercontent.com/41305591/71653629-7f289180-2cfb-11ea-877b-8fadfbc98c44.png"><br />
 
- **Entering a negative amount** <br />>
+ **Entering a negative amount** <br />
  <img width="696" height="350" alt="Screen Shot 2020-01-02 at 12 51 20 AM" src="https://user-images.githubusercontent.com/41305591/71653667-bac35b80-2cfb-11ea-8a4d-bc453942092d.png">
 
  
