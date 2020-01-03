@@ -6,13 +6,19 @@ This is a Bank simulation implemented as a Restful API that supports everday ban
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### System Prerequisites
 
 ```
-Python3, flask
+Python3
 MongoDB
-Docker, Docker-compose
+Docker
+Docker-compose
 Postman
+```
+
+**Install Python requirements**
+```
+pip3 install -r requirements.txt
 ```
 
 ### Installing
@@ -24,14 +30,19 @@ Say what the step will be
 ```
 Python : 
 https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html 
+
 Flask:
 https://pypi.org/project/Flask/ 
+
 MongoDB :
 https://docs.mongodb.com/manual/installation/
+
 Docker 
 https://docs.docker.com/docker-for-mac/install/ 
+
 Docker-compose 
-https://docs.docker.com/compose/install/. 
+https://docs.docker.com/compose/install/
+
 Postman:
 https://www.getpostman.com/downloads/ 
 
